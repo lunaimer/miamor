@@ -1,0 +1,87 @@
+body {
+    font-family: "Princess Sofia", cursive;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #faf8eb;
+    line-height: 1.5;
+}
+
+h2 {
+    color: #DDADBB;
+    margin-bottom: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: #B7526F;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.main {
+    background: #F9E3E5;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    box-shadow: 0 2px 4px #52141C;
+}
+
+.main p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #562432;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.left-btn, .right-btn {
+    flex: 1;
+    padding: 15px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 2px solid #B7526F;
+    background: #F9E3E5;
+    color: #903C54;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.left-btn:hover, .right-btn:hover {
+    background: #D75B6B;
+    color: white;
+}
+
+.news {
+    background: #F9E3E5;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #52141C;
+}
+
+.news p {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #562432;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.news li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fffefb;
+    border-radius: 5px;
+    border-left: 3px solid #562432;
+    color: #562432;
+}

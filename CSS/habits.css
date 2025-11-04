@@ -1,0 +1,83 @@
+body {
+    font-family: "Princess Sofia", cursive;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 25px;
+    background-color: #faf8eb;
+    line-height: 1.6;
+    color: #562432;
+}
+
+h4 {
+    text-align: center;
+    color: #DDADBB;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #562432;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+li {
+    background: #F9E3E5;
+    margin: 12px 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border-left: 4px solid #B7526F;
+    color: #562432;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    background: #f5d5d8;
+    transform: translateX(5px);
+}
+
+/* Boş li'ler için */
+li:empty {
+    background: #fffefb;
+    border: 2px dashed #DDADBB;
+    color: #DDADBB;
+    font-style: italic;
+}
+
+li:empty::before {
+    content: "+ Yeni alışkanlık ekle...";
+}
+
+/* Ana sayfa butonu */
+.bottom-button {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 2px solid #F9E3E5;
+}
+
+.mainpg-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #F9E3E5;
+    color: #903C54;
+    text-decoration: none;
+    border: 2px solid #B7526F;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.mainpg-btn:hover {
+    background: #B7526F;
+    color: white;
+    transform: scale(1.05);
+}

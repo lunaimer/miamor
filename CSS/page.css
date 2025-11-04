@@ -1,0 +1,110 @@
+body {
+    font-family: "Princess Sofia", cursive;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 25px;
+    background-color: #FADCE6;
+    color: #562432;
+}
+
+h4 {
+    color: #DDADBB;
+    margin-bottom: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #B7526F;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+textarea {
+    width: 100%;
+    height: 400px;
+    padding: 26px;
+    border: 2px dashed #B7526F;
+    border-radius: 13px;
+    background-color: #fffefb;
+    font-size: 13px;
+    font-style: italic;
+    resize: none;
+    box-sizing: border-box;
+    margin-bottom: 19px;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #562432;
+    box-shadow: 0 0 8px #562432;
+}
+
+textarea::placeholder {
+    color: #DDADBB;
+    font-style: italic;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.save-btn, .clear-btn {
+    padding: 15px 30px;
+    border: 2px solid #B7526F;
+    border-radius: 10px;
+    background: #F9E3E5;
+    color: #903C54;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex: 1;
+    max-width: 200px;
+}
+
+.save-btn:hover {
+    background: #B7526F;
+    color: white;
+    transform: scale(1.05);
+}
+
+.clear-btn:hover {
+    background: #B7526F;
+    color: white;
+    transform: scale(1.05);
+}
+
+.bottom-button {
+    margin-top: 30px;
+    padding: 20px 0;
+}
+
+.mainpg-btn {
+    text-align: center;
+    display: block;
+    padding: 12px 25px;
+    background: #F9E3E5;
+    color: #903C54;
+    text-decoration: none;
+    border: 2px solid #B7526F;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.mainpg-btn:hover {
+    background: #B7526F;
+    color: white;
+    transform: scale(1.05);
+}
